@@ -30,17 +30,22 @@ export default function Header({}: Props) {
           bgColor="transparent"
         />
         <SocialIcon
-          url="https://www.linkedin.com/in/rowland-jones/"
+          url="https://www.youtube.com/@rowlandjones3872"
           fgColor="gray"
           bgColor="transparent"
         />
         <SocialIcon
-          url="https://www.linkedin.com/in/rowland-jones/"
+          url="https://twitter.com/amkayjones"
           fgColor="gray"
           bgColor="transparent"
         />
         <SocialIcon
-          url="https://www.linkedin.com/in/rowland-jones/"
+          url="https://github.com/Kwekku"
+          fgColor="gray"
+          bgColor="transparent"
+        />
+        <SocialIcon
+          url="https://www.instagram.com/amkayjones/"
           fgColor="gray"
           bgColor="transparent"
         />
