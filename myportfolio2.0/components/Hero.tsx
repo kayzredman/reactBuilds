@@ -1,4 +1,4 @@
-import { Link } from "framer";
+import Link from "next/link";
 import React from "react";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import BackgroundCircles from "./BackgroundCircles";
@@ -32,6 +32,7 @@ export default function ({}: Props) {
           <span>{text}</span>
           <Cursor cursorColor="#F7AB0B" />
         </h1>
+
         <div className="pt-5">
           <Link href="#about">
             <button className="heroButton">About</button>

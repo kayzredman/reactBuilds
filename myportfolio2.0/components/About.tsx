@@ -5,7 +5,10 @@ type Props = {};
 
 export default function About({}: Props) {
   return (
-    <div
+    <motion.div
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 1.5 }}
       className="flex flex-col relative h-screen text-center md:text-left md:flex-row
     max-w-7xl px-10 justify-evenly mx-auto items-center"
     >
@@ -15,7 +18,6 @@ export default function About({}: Props) {
       >
         About
       </h3>
-
       <motion.img
         initial={{
           x: -200,
@@ -38,7 +40,7 @@ export default function About({}: Props) {
           background
         </h4>
         <p className="text-base">
-          I'm, Rowland, also know by friends as Kwekku or Kay for short. Here's
+          I'm, Rowland, also known by friends as Kwekku or Kay for short. Here's
           a little bit about me... I've been in the IT field for over 12 years
           in diverse industries handling diverse Projects from Software
           implementations to Managing the whole Infrastrucure. I make
@@ -47,6 +49,6 @@ export default function About({}: Props) {
           Excellent team player || Pay Attention to Details
         </p>
       </div>
-    </div>
+    </motion.div>
   );
 }
