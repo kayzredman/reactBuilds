@@ -7,7 +7,7 @@ type Props = {
 
 function Skillgrid({ directionLeft }: Props) {
   return (
-    <div className="group relative flex cursor-pointer">
+    <div className="flex group relative cursor-pointer mt-11">
       <motion.img
         initial={{
           x: directionLeft ? -200 : 200,
